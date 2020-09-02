@@ -11,10 +11,12 @@
 1. ```tr ' ' '\12' < data.txt | sort | uniq -c | sort -nr``` is used to send the output i.e unique words to sort with -nr flag. Where the numerical comparison is done with reversing results.
 1. ```tr ' ' '\12' < data.txt | sort | uniq -c | sort -nr > result.txt``` is used to store the output of previously executed command to result.txt file. 
 
+## Bash Up arrow
+Up arrow in bash shell is used to view the commands that were executed previously. 
+
 ## Bash Shell Commands
 1. sort --help: This command sorts and displays arguments that are used with bash commands. 
 1. "-n" - This command is used to sort the data by comparing it's numerical value. 
 1. "-r" - This command reverse the results. 
 1. One dash (-) is used for a single letter flag. 
 1. two dashes (--) are used when flag is more than one letter 
-
